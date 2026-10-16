@@ -20,3 +20,13 @@
 - Final Bandit report: No issues identified.
 - Final Flake8 report: No violations displayed.
 - The demonstration program ran successfully after the changes.
+
+  ## Bandit Verification
+
+- Original findings: 3 (1 Low and 2 Medium severity).
+- Final findings: No issues identified.
+- SQL queries use parameterized placeholders.
+- Unsafe eval() was replaced with a restricted AST-based evaluator.
+- The unused hardcoded password was removed.
+
+  
