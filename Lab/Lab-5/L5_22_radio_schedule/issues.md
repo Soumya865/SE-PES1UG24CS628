@@ -29,4 +29,11 @@
 - Unsafe eval() was replaced with a restricted AST-based evaluator.
 - The unused hardcoded password was removed.
 
+  ## Flake8 Verification
+
+- Original findings: 4 formatting violations.
+- Final findings: No violations displayed.
+- Long lines were split into shorter lines.
+- Multiple statements on one line were separated.
+
   
